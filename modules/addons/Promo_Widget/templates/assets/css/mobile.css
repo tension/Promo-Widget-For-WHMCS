@@ -1,0 +1,44 @@
+.promo-widget {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(77,77,77,.65);
+    z-index: 2147483637!important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 25px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.promowidget {
+    min-width: 238px;
+    max-width: 334px;
+    width: 100%;
+    top: 50%;
+    -webkit-transition: none!important;
+	transition: none!important;
+	top: auto !important;
+	left: auto !important;
+	right: auto !important;
+	bottom: auto !important;
+	position: relative;
+	animation-duration: 0s;
+}
+.promowidget .title, .promowidget .content {
+    max-width: 100%;
+}
+.promowidget .title {
+	font-size: 16px;
+}
